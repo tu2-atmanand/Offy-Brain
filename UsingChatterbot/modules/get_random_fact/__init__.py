@@ -1,2 +1,2 @@
-import modules.get_random_fact.conf
-import modules.get_random_fact.get_random_fact
+import UsingChatterbot.modules.get_random_fact.conf
+import UsingChatterbot.modules.get_random_fact.get_random_fact

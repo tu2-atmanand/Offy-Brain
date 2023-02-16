@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from starterkit.fallback_module.get_smart_answer import get_smart_answer
-from mgr.mgr_db import db_loadEnabledModules
+from UsingChatterbot.starterkit.fallback_module.get_smart_answer import get_smart_answer
+from UsingChatterbot.SpeechRecognitio.mgr_db import db_loadEnabledModules
 
 # Speech to Text and reverse
 import speech_recognition as sr
@@ -25,11 +25,7 @@ def getAssistantResponse(phrase):
     have_answered = False
     answer = "Unknown error"
     for module in ENABLED_MODULES:
-<<<<<<< HEAD
         # text should be always a str, bc. we validated this in Train.py
-=======
-        # text should be always a str, bc. we validated this in main.py
->>>>>>> 40ad13f30d554bb4bb2d150c13f17375f564a9db
         if any(x in str(phrase) for x in module.getChatKeywords()):
             answer = str(module.getAnswer(phrase))
             have_answered = True
