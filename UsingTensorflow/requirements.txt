@@ -1,0 +1,5 @@
+numpy~=1.19.5
+scikit-learn~=0.23.2
+colorama~=0.4.3
+nltk~=3.5
+Token~=1.8.6
