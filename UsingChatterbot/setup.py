@@ -1,14 +1,15 @@
 import os
 import pip
-from UsingChatterbot.starterkit.fallback_module.global_constants import DB_NAME
+from global_constants import DB_NAME
 
 # We have to determine this BEFORE calling other imports to prevent creating an empty db before execution of config-script
 db_exists =  os.path.exists(DB_NAME)
 
 # from peewee import *
-import modules.
+import modules
 from starterkit.fallback_module.conf import db
-from chatterbot import trainers
+from entities import *
+from chatterbot import ChatBot,trainers
 
 """ This file is only needed ONCE (when executing the assistant the first time).
 
@@ -103,5 +104,4 @@ if not db_exists: # do not evaluate here again whether db exists (bc. of imports
 
 else:
     print("CONFIDENTIAL: Found database 'db.sqlite3'. Stopping script execution.\n"+
-          "Solution -> Delete the database file and re-execute this script OR just start the Train.py.")
-
+          "Solution -> Delete the database file and re-execute this script OR just start the main.py.")

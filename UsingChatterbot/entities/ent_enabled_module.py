@@ -1,5 +1,5 @@
 from peewee import *
-from UsingChatterbot.entities.ent_base_model import BaseModel
+from entities.ent_base_model import BaseModel
 
 # IMPORTANT: Peewee automatically creates an id (integer) field as primary key
 class EnabledModule(BaseModel):

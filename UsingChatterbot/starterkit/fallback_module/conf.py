@@ -1,9 +1,8 @@
 from chatterbot import ChatBot
 from peewee import SqliteDatabase
-# from global_constants import DB_NAME
+from global_constants import DB_NAME
 import logging
 
-DB_NAME = "db.sqlite3"
 
 """ As get_smart_answer is no regular module, the .conf-file here looks completely different. """
 

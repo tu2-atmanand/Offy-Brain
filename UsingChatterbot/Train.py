@@ -8,14 +8,14 @@ chatbot = ChatBot("first")
 list_trainer = ListTrainer(chatbot)
 
 # Load the training data from the 'dialogs.txt' file
-with open('Data/output.txt', 'r') as file:
+with open('output.txt', 'r') as file:
     training_data = file.readlines()
 
 # Train the chatbot using the training data
 for statement in training_data:
     list_trainer.train(statement)
 
-'''
+
 # Below is the code using ChatterBotCorpusTrainer module : 
 
 # # from chatbot import chatbot
@@ -31,8 +31,6 @@ for statement in training_data:
 #     "chatterbot.corpus.english"
 # )
 
-
-'''
 
 # Incase if you want to save the trained model as *.h5 file (YOu dont need this as database is also nice but stiil train and see what are the results) :
 

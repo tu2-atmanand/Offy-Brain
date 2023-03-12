@@ -1,2 +1,2 @@
-import UsingChatterbot.modules.get_random_question.conf
-import UsingChatterbot.modules.get_random_question.get_random_question
+import modules.get_random_question.conf
+import modules.get_random_question.get_random_question

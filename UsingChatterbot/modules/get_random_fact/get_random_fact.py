@@ -1,5 +1,5 @@
 import random
-from UsingChatterbot.starterkit.abstr_answer import abstr_answer
+from starterkit.abstr_answer import abstr_answer
 
 class get_random_fact(abstr_answer):
     def getAnswer(self, userInput):

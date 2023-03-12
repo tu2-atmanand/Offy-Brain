@@ -1,4 +1,4 @@
-from UsingChatterbot.starterkit.abstr_answer import abstr_answer
+from starterkit.abstr_answer import abstr_answer
 
 class get_welcome_msg(abstr_answer):
     def getAnswer(self, userInput):

@@ -1,6 +1,6 @@
 from abc import abstractmethod, ABC
 import json
-from UsingChatterbot.entities import *
+from entities import *
 
 """ PARENT CLASS = MODULE layout 
 
