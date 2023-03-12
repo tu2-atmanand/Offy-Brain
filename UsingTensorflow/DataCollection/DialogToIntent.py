@@ -1,7 +1,7 @@
 import json
 # This file was used to convert the simple dialogs.txt data into a intents.json type corpus.
 # read the dataset from a file
-with open('dialogs.txt', 'r') as f:
+with open('../FromChatGPT/dialogs.txt', 'r') as f:
   lines = f.readlines()
 
 # create a list of intents
@@ -26,7 +26,7 @@ intents = {
 intents_json = json.dumps(intents, indent=2)
 
 # write the intents data structure to the intents.json file
-with open('intents.json', 'w') as f:
+with open('../FromChatGPT/intents.json', 'w') as f:
   f.write(intents_json)
 
 

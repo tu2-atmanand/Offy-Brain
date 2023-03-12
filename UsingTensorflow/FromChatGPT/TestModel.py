@@ -4,7 +4,7 @@ import re
 import string
 import numpy as np
 import tensorflow as tf
-from keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 
 
 # Preprocess the input text
