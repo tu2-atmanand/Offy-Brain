@@ -168,3 +168,4 @@ cython_debug/
 #.idea/
 
 !/UsingTensorflow/DataCollection/tensorflow-2.3.1-cp38-cp38-win_amd64.whl
+/UsingTensorflow/DataCollection/tensorflow-2.3.1-cp38-cp38-win_amd64.whl
