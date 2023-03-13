@@ -9,6 +9,11 @@ So main goal of this project :
 
 For now this project will only be in Terminal Based, but for the internet functionality, ill need to create GUI interface.
 
+## Overview
+This project contains two sub projects, which uses different techologies to train model : 
+1. **UsingTensorflow** : This uses simple Machine learning technology to train a model on a labeled data. This is the disadvatage, labeled data is not easily available so i have to use other techniques to train on unlabeled data. This model creates a chat_model as its final output which i can use in other projects with only one scripts and some pickle files. The main working code is in Main directory.
+
+2. UsingChatterBot : This uses chatterbot module to train and build model. This creates a database file as its final output. This is under test. It do not create a good model as of now.
 
 
 ## Contribution
@@ -22,6 +27,7 @@ For now this project will only be in Terminal Based, but for the internet functi
 
 
 ## TODO
+0. Use **GPT** Technology to build models.
 1. If the AI didnt know the answer than it should reply in a way how humans reply.
 2. If we are quit for long time than, the AI can ask something or start conversation.
 3. Creating the Assistant functionality which includes basic tasks on PC.
