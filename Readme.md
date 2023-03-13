@@ -1,5 +1,5 @@
 # AI Bot
-This project is an part of the main project [[Offy]]. In this project i am going to build the final model, and use it there.
+This project is an part of the main project [Offy](https://github.com/tu2-atmanand/offy). In this project i am going to build the final model, and use it there.
 The main functionality of this AI model is to work kind of like a friendly chatbot, mimic a real human as much accurately as possible, but not neccessary need to have expertise in any field to provide information or anything. This model should give me output which are very similar to the human answers.
 Also, i want to integrate the functionality of Assistant for doing basic tasks on pc, in this project.
 
