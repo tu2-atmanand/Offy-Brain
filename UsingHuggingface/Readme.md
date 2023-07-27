@@ -1,5 +1,7 @@
 
-# Using Blenderbot
+# Using Huggingface
+
+At present we are using Blenderbot model by facebook.
 
 Blender Bot is a cutting-edge chatbot that leverages the Transformer architecture to engage in dynamic and contextually rich conversations. It is trained on a vast corpus of diverse data from the internet, enabling it to generate human-like responses and exhibit an understanding of context and nuanced language.
 

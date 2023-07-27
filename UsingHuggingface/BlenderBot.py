@@ -1,5 +1,5 @@
 
-# TODO : Read Transformer Readme, theres lot of resources there for models and all. Also for this blenderbot see projects on github, till you find better model.
+# TODO : Read Transformer Readme, theres lot of resources there for models and all. Also for this blenderbot see projects on github, till you find better model. 1. Try to make it work for facebook/blenderbot_small-90M.
 
 # Blenderbot - 730 mb
 
@@ -18,6 +18,9 @@ while True:
     if utterance != "kill":
         inputs = tokenizer(utterance, return_tensors="pt")
         res = model.generate(**inputs)
-        print(tokenizer.decode(res[0]))
+        print(tokenizer.decode(res.data))
     else:
         break
+
+
+
