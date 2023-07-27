@@ -1,7 +1,7 @@
 # Offy-Brain
 This project is an part of the main project [Offy](https://github.com/tu2-atmanand/offy). In this project i am going to build the final model or the main Brain for the AI i am building in offy project.
 The main functionality of this AI model is to work kind of like a friendly chatbot, mimic a real human as much accurately as possible, and not neccessary need to have expertise in any field to provide information or anything. This model should give me output which are very similar to the human answers.
-Also, i want to integrate the functionality of Assistant for doing basic tasks on pc, in this project.
+Also, i want to integrate the functionality of Assistant for doing basic tasks on pc, in this project. Another main objective of this project is to keep track of all the approaches and technologies i have used till now to get the desired result. This will also help to see the history and learn from it.
 
 So main goal of this project :
 1. To build the final ML model for the main project.
@@ -10,7 +10,8 @@ So main goal of this project :
 For now this project will only be in Terminal Based, but for the internet functionality, ill need to create GUI interface.
 
 ## Overview
-This repository contains subprojects or approaches i have tried till now to reach to the final model. The earlier methods are kept because they might have some scope in future. Following are the approaches :
+This repository contains subprojects or approaches i have tried till now to reach to the final model. The earlier methods are kept because they might have some scope in future. So the first two approaches were to train our own ML model, but this wont be beneficial, hence going for the third approach of using prebuilt model from hugging face.
+Following are the approaches :
 
 1. **Using Chatterbot** : This project uses Chatterbot and spacy packages of python to collect and train our own model. But this is a Rule Based model and wont be suitable for conversational purposes, hence needs to be archived soon.
 
