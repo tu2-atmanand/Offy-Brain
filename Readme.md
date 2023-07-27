@@ -10,6 +10,7 @@ So main goal of this project :
 For now this project will only be in Terminal Based, but for the internet functionality, ill need to create GUI interface.
 
 ## Overview
+
 This repository contains subprojects or approaches i have tried till now to reach to the final model. The earlier methods are kept because they might have some scope in future. So the first two approaches were to train our own ML model, but this wont be beneficial, hence going for the third approach of using prebuilt model from hugging face.
 Following are the approaches :
 
@@ -33,6 +34,7 @@ Following are the approaches :
 
 
 ## TODO
+0. Use **GPT** Technology to build models.
 1. If the AI didnt know the answer than it should reply in a way how humans reply.
 2. If we are quit for long time than, the AI can ask something or start conversation.
 3. Creating the Assistant functionality which includes basic tasks on PC.
