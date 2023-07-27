@@ -9,6 +9,7 @@ ProjectsByOthers.md
 UsingChatterbot/MyReadme.md
 UsingTensorflow/MyReadme.md
 UsingTensorflow/DataCollection/tensorflow-2.3.1-cp38-cp38-win_amd64.whl
+UsingHuggingface/MyReadme.md
 
 
 # C extensions
@@ -169,3 +170,6 @@ cython_debug/
 
 !/UsingTensorflow/DataCollection/tensorflow-2.3.1-cp38-cp38-win_amd64.whl
 /UsingTensorflow/DataCollection/tensorflow-2.3.1-cp38-cp38-win_amd64.whl
+!/UsingHuggingface/MyReadme.md
+!/UsingHuggingface/MyReadme.md
+/UsingHuggingface/MyReadme.md
